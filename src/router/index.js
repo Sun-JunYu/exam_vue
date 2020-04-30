@@ -3,10 +3,16 @@ import Router from 'vue-router'
 import index from '@/components/index'
 import register from '@/components/register'
 import login from '@/components/login'
+import upload from '@/components/upload'
 
 Vue.use(Router)
 
 var routes = [
+        {
+          path:'/upload',
+          name:'upload',
+          component:upload
+        },
         {
           path:'/',
           name:'index',
