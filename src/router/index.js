@@ -4,6 +4,7 @@ import index from '@/components/index'
 import register from '@/components/register'
 import login from '@/components/login'
 import upload from '@/components/upload'
+import youpaiyun from '@/components/youpaiyun'
 
 Vue.use(Router)
 
@@ -27,6 +28,11 @@ var routes = [
           path:'/login',
           name:'login',
           component:login
+        },
+        { 
+          path:'/youpaiyun',
+          name:'youpaiyun',
+          component:youpaiyun
         },
         
 ]
